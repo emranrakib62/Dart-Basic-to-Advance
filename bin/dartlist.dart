@@ -22,6 +22,20 @@ print(fruits);
 fruits[0]="mango";
 print(fruits);
 
+//fixed length list
+List<int> fixedList=List<int>.filled(3,1);
+fixedList[0]=1;
+fixedList[1]=1;
+fixedList[2]=2;
+
+
+print(fixedList);
+
+//growablelist
+List<int> growablelist=[];
+growablelist.add(4);
+  growablelist.add(5);
+  print(growablelist);
 
 
 
