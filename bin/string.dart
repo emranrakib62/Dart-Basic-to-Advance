@@ -19,5 +19,13 @@ String rawstring=r'this is a raw string.\nNew lines and\t tabs are not processed
 print(rawstring);
 
 
+print('\nString case conversion Example:');
+String uppercase=name.toUpperCase();
+String lowercase=greeting.toLowerCase();
+
+print('\nUppercase Name:$uppercase');
+  print('\nLowercase Greeting:$lowercase');
+
+
 
 }
