@@ -11,3 +11,15 @@ void main(){
 
 
 }
+
+void main() {
+  List<String> names=['hasan','bob','charlie','diane'];
+
+  for(int i=0;i<names.length;i++){
+    print('name at the index: ${names[i]}');
+  }
+
+
+
+
+}
