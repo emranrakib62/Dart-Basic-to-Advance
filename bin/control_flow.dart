@@ -1,25 +1,17 @@
-void main(){
-
-  for(int i=1;i<=10;i++){
+void main() {
+  for (int i = 1; i <= 10; i++) {
     print('number:$i');
   }
 
 
-  for(int i=2;i<100;i=i+2){
+  for (int i = 2; i < 100; i = i + 2) {
     print('numbner:$i');
   }
 
 
-}
+  List<String> names = ['hasan', 'bob', 'charlie', 'diane'];
 
-void main() {
-  List<String> names=['hasan','bob','charlie','diane'];
-
-  for(int i=0;i<names.length;i++){
-    print('name at the index: ${names[i]}');
+  for (int i = 0; i < names.length; i++) {
+    print('name at the index $i: ${names[i]}');
   }
-
-
-
-
 }
