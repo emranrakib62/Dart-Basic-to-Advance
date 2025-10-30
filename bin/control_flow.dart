@@ -14,4 +14,17 @@ void main() {
   for (int i = 0; i < names.length; i++) {
     print('name at the index $i: ${names[i]}');
   }
+
+
+  int countdown=5;
+
+  while(countdown<0){
+    print('countdown: $countdown');
+    countdown++;
+  }
+
+  print('Launch??');
+
+
+
 }
