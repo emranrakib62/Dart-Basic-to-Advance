@@ -1,4 +1,7 @@
+import "dart:io";
+
 void main() {
+
   for (int i = 1; i <= 10; i++) {
     print('number:$i');
   }
@@ -27,4 +30,30 @@ void main() {
 
 
 
+
+
+  int number=6;
+
+  do{
+    print('this will print even though number>5');
+    number++;
+  }while(number <=5);
+
+do{
+
+  print('....simple Menu....');
+  print('1. say hello');
+  print('2. say goodbye');
+  print('3.Exit');
+
+  print('Enter your Choice');
+  choice = stdin.readLineSync();
 }
+
+
+
+}
+
+
+
+
