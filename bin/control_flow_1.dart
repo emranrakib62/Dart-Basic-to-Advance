@@ -1,7 +1,7 @@
 void main(){
  ifElseExample();
  NestedIfExample();
-
+switchcaseexample();
 }
 
 
@@ -28,4 +28,20 @@ void NestedIfExample(){
   }else{
     print('child');
   }
+}
+
+void switchcaseexample(){
+  String day='Monday';
+  switch(day){
+    case 'saturday':
+      print('Start the week day');
+      break;
+    case 'Friday':
+      print('End of the week day');
+  break;
+
+    default:
+      print('Midweek day');
+  }
+
 }
