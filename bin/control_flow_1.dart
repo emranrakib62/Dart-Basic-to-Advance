@@ -2,6 +2,7 @@ void main(){
  ifElseExample();
  NestedIfExample();
 switchcaseexample();
+ patternmatchingExample();
 }
 
 
@@ -44,4 +45,19 @@ void switchcaseexample(){
       print('Midweek day');
   }
 
+}
+void patternmatchingExample(){
+  int value =42;
+  switch(value){
+    case int n when n.isEven:
+    print('$n is even');
+     break;
+    case int n when n.isOdd:
+      print('$n is odd');
+      break;
+
+    default:
+      print('Not an integer');
+
+  }
 }
