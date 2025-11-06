@@ -16,7 +16,7 @@ void main() {
   }
 
   int countdown = 5;
-  while (countdown >= 0) {   // fixed condition
+  while (countdown >= 0) {
     print('countdown: $countdown');
     countdown--;
   }
@@ -28,7 +28,6 @@ void main() {
     number++;
   } while (number <= 5);
 
-  // ----------- Fixed Menu Section -----------
   String? choice;
 
   do {
@@ -51,4 +50,13 @@ void main() {
     }
 
   } while (choice != '3');
+
+  print('Program Ended');
+
+
+  for (int row = 1; row <= 3; row++) {
+    for (int col = 1; col <= 3; col++) {
+      print('Row $row - Col $col');
+    }
+  }
 }
