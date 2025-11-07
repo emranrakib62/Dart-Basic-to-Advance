@@ -59,4 +59,20 @@ void main() {
       print('Row $row - Col $col');
     }
   }
+
+
+  for (int i=1;i<=10;i++){
+    if(i==5){
+      print('breaking at 5');
+      break;
+    }
+    print('Number: $i');
+  }
+
+
+
+
 }
+
+
+
