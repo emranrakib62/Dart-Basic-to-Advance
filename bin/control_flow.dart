@@ -69,7 +69,13 @@ void main() {
     print('Number: $i');
   }
 
-
+print('.............Continue Example............');
+  for(int i=1;i<=10;i++){
+    if(i%2==0){
+    continue;
+    }
+    print('Odd Number:$i');
+  }
 
 
 }
