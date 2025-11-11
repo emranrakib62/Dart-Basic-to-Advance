@@ -2,6 +2,7 @@ void main(){
 
 positionalparameter();
 nameparameterExample();
+requeirdnameparameterExample();
 }
 void greet(String name,int Age){
   print("Hello $name how are you,you are $Age years old");
@@ -27,6 +28,20 @@ void nameparameterExample(){
   createuser('korim', 30, 'korim@gmail.com');
 
 }
+
+void login({required String username,required String password}){
+  print('Logging in');
+  print('Username:$username');
+  print('Password:$password');
+}
+
+void requeirdnameparameterExample(){
+
+  login(username: "hasan", password: '123455');
+  login(username: "bulbul", password: '54321');
+
+}
+
 
 
 
