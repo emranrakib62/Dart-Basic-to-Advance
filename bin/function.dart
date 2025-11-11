@@ -42,6 +42,18 @@ void requeirdnameparameterExample(){
 
 }
 
+void ordercoffe({String size='Medium',String type='latte',int suger=1,bool extrashot=false}){
+
+  print('Coffe order');
+  print('Size:$size');
+  print('type:$type');
+  print('suger:$suger');
+  print('extrashot:${extrashot? 'yes':'No'}');
+
+}
+
+
+
 
 
 
