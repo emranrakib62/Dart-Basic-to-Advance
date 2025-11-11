@@ -3,6 +3,7 @@ void main(){
 positionalparameter();
 nameparameterExample();
 requeirdnameparameterExample();
+deefaultvalueExample();
 }
 void greet(String name,int Age){
   print("Hello $name how are you,you are $Age years old");
@@ -50,6 +51,12 @@ void ordercoffe({String size='Medium',String type='latte',int suger=1,bool extra
   print('suger:$suger');
   print('extrashot:${extrashot? 'yes':'No'}');
 
+}
+void deefaultvalueExample(){
+  ordercoffe();
+  ordercoffe(size: 'large');
+  ordercoffe(type: 'cappuccino',extrashot: true);
+  ordercoffe(size: 'small',type: 'espresso',suger: 0,extrashot:true );
 }
 
 
