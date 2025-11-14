@@ -85,4 +85,15 @@ void optionalParametersExample() {
   calculateArea(5.0, 3.0);
 }
 
+void createprofile(String name,int age,{String? email, String? phone,bool isactive =true}){
+
+  print('Profile:');
+  print('Name: $name');
+  print('Age: $age');
+  if(email !=null)
+    print('Email:$email');
+  if(phone !=null)
+    print('Phone:$phone');
+print('Active :$isactive');
+}
 
