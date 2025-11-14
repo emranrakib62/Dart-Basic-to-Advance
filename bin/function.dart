@@ -59,7 +59,19 @@ void deefaultvalueExample(){
   ordercoffe(size: 'small',type: 'espresso',suger: 0,extrashot:true );
 }
 
+void introduce(String name,[String? title,int? age]){
+  print("Introduction:");
+  if(title !=null){
+    print("$title $name");
+  }else{
+    print('Age:$age');
+  }
+}
 
+void calculateArea(double length,[double width=1.0]){
+  double area=length*width;
+  print('Area:$area(length:$length,width: $width)');
+}
 
 
 
