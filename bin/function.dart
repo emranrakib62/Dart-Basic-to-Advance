@@ -4,6 +4,7 @@ positionalparameter();
 nameparameterExample();
 requeirdnameparameterExample();
 deefaultvalueExample();
+optionalParametersExample();
 }
 void greet(String name,int Age){
   print("Hello $name how are you,you are $Age years old");
@@ -73,6 +74,15 @@ void calculateArea(double length,[double width=1.0]){
   print('Area:$area(length:$length,width: $width)');
 }
 
+void optionalParametersExample() {
+  print('\n=== Optional Positional Parameters ===');
 
+  introduce('Alice');
+  introduce('Bob', 'Dr.');
+  introduce('Charlie', 'Mr.', 35);
+
+  calculateArea(5.0);
+  calculateArea(5.0, 3.0);
+}
 
 
