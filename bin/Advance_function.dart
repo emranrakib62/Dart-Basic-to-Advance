@@ -2,7 +2,7 @@ String globalVar = 'I am a Global Variable';
 String getGlobalVar() => globalVar;
 
 void main(){
-
+  scopeExample();
   anonymousFunctionExample();
   higherorderFunctionExample();
   recursiveFunctionExample();
@@ -54,4 +54,16 @@ int fibonacci(int n){
   return fibonacci(n-1) + fibonacci(n-2);
 }
 
+void scopeExample(){
+  String localVar ='I am local Variable';
 
+  print(getGlobalVar());
+  print(localVar);
+
+  if(true){
+    String blockVar=' I exist only inside this block';
+    print(blockVar);
+  }
+  String globalVar='I Shadow the global one!';
+  print('globalVar');
+}
